@@ -12,7 +12,7 @@
     - Store Key in Keys Directory in Projectfolder
 - Edit "project" Variable in terraform.tfvars
 - Edit "credentials_file" Variable in terraform.tfvars 
-- Service Account need rights to create Shared VPC (tbd in Terraform)
+- **TBD: Service Account need rights to create Shared VPC (Create in Terraform)**
     - gcloud organizations add-iam-policy-binding "ORG-ID" \
        --member="serviceAccount:SA-Name" \
        --role="roles/compute.xpnAdmin"
