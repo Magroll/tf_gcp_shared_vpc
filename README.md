@@ -13,6 +13,7 @@
 - Edit "project" Variable in terraform.tfvars
 - Edit "credentials_file" Variable in terraform.tfvars 
 - **TBD: Service Account need rights to create Shared VPC (Create in Terraform)**
+    - https://cloud.google.com/iam/docs/understanding-roles#compute.xpnAdmin
     - Tried https://www.terraform.io/docs/providers/google/r/google_organization_iam_binding.html
     - Got -- Error: Error retrieving IAM policy for organization "893481264700": googleapi: Error 403: The caller does not have permission, forbidden -- because the serviceaccount doesn't have the right to do it
     - Workaround in gcloud shell:
